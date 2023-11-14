@@ -111,7 +111,7 @@ for (let rankingMovie of rankingMovies) {
 }
 
 //STEP 14
-let employees = ["Elmira", "Amy", "Howard", "Tiffanie"]
+let employees1 = ["Elmira", "Amy", "Howard", "Tiffanie"]
 let showEmployee = function (employees) {
     console.log("Employees:")
     console.log("")
@@ -119,7 +119,7 @@ let showEmployee = function (employees) {
         console.log(employee.toUpperCase())
     }
 }
-showEmployee(employees);
+showEmployee(employees1);
 
 //STEP 15
 let filterResult = function (array) {
